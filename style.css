@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+
+header h1 {
+    padding-top: 25px;
+    color: white;
+    text-align: center;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.turkish-foods {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.card {
+    /*background-image: url(Images/karniyarik.jpg);*/
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 60vh;
+    border-radius: 20px;
+    margin: 5px;
+    transition: transform 1s ease;
+}
+
+.card-desc {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.19);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.show-card {
+    width: 700px;
+    transform: translateY(50px);
+}
